@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+<meta charset="utf-8">
+<title>Contact form submission</title>
 </head>
 <body>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium aspernatur minus consequuntur perspiciatis eius odio officia esse et velit voluptatibus, suscipit deleniti iste earum alias ut perferendis nam nisi incidunt ipsum? Ipsum, esse qui?
+
+<html>
+<body>
+ <form  method="post" id="contact-form" action="form.php">
+   <h2>Contact us</h2>
+   <p>
+     <label>First Name:</label>
+     <input name="name" type="text"/>
+   </p>
+   <p>
+     <label>Email Address:</label>
+     <input style="cursor: pointer;" name="email" type="text"/>
+   </p>
+   <p>
+     <label>Message:</label>
+     <textarea name="message"></textarea>
+   </p>
+   <p>
+
+     <input type="submit" value="Send"/>
+   </p>
+ </form>
+
+ </script>
 </body>
 </html>
