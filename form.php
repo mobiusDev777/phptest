@@ -1,9 +1,9 @@
 <?php 
 
-if (isset($_POST['submit'])) {
+if (isset($_GET['submit'])) {
     $to = "mobiusdev777@gmail.com";
-    $subject = $_POST['name'];
-    $message = $_POST['message'];
+    $subject = $_GET['name'];
+    $message = $_GET['message'];
     $from = "zenphoto@example.com";
     $headers = "From:" . $from;
 
