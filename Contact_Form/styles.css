@@ -1,0 +1,48 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(16, 87, 87);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+form {
+    width: clamp(320px,32%,400px);
+    height: auto;
+    border-radius: 1rem;
+}
+
+form fieldset {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(159, 159, 159, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+form fieldset header{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+form fieldset label {
+    color: rgb(203, 203, 203);
+}
+
+form fieldset input,
+form fieldset textarea {
+    margin-bottom: 8px;
+    opacity: 0.75;
+}
